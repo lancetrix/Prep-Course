@@ -73,7 +73,7 @@ describe('nuevoModulo', function() {
 
 describe('devolverString(str)', function() {
   it('Deberia devolver el string provisto', function() {
-    let string = 'Henry';
+    let string = 'str';
     expect(devolverString(string)).toBe(string);
   });
 });
