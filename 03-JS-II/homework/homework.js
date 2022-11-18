@@ -30,13 +30,13 @@ function conection(status) {
   //Devolver el estado de conexión de usuario en cada uno de los casos.
    if (status === 1){
      return 'online';
+   }
     if (status === 2){
       return 'away';
      } 
      else {
        return 'offline';
      }
-   } 
 }
 
 function saludo(idioma) {
